@@ -1,0 +1,30 @@
+.register-background {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  min-height: 100vh;
+  padding-top: 100px; /* space below navbar */
+  padding-bottom: 60px; /* space above footer */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.register-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  width: 100%;
+}
+
+.register-btn {
+  background: linear-gradient(to right, #28a745, #5dd78b);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.register-btn:hover {
+  background: linear-gradient(to right, #1c7c35, #4bc27a);
+  transform: scale(1.02);
+}
+
